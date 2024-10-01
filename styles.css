@@ -1,23 +1,24 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Verdana', sans-serif;
   text-align: center;
-  background-color: #f0e68c;
+  background-color: #ffefc1;
   margin: 0;
+  color: #333;
 }
 
 header {
-  background-color: #ff6347;
+  background-color: #008080;
   color: white;
   padding: 20px;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 3.5em;
   margin-bottom: 0.2em;
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 main {
@@ -27,16 +28,16 @@ main {
 }
 
 section {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 h2 {
-  color: #4169e1;
-  font-size: 2.5em;
+  color: #9932CC;
+  font-size: 2.7em;
 }
 
 a {
-  color: #ff4500;
+  color: #FF4500;
   font-weight: bold;
   text-decoration: none;
   font-size: 1.2em;
@@ -47,13 +48,14 @@ a:hover {
 }
 
 img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
-  margin: 20px;
+  margin: 15px auto;
+  display: block;
 }
 
 footer {
-  background-color: #4169e1;
+  background-color: #008080;
   color: white;
   padding: 10px;
   position: fixed;
@@ -62,23 +64,23 @@ footer {
 }
 
 .link-buttons {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .link-buttons a {
   display: inline-block;
-  padding: 10px 20px;
-  background-color: #ff4500;
+  padding: 12px 25px;
+  background-color: #FF6347;
   color: white;
-  border-radius: 10px;
+  border-radius: 8px;
   margin: 10px;
 }
 
 .link-buttons a:hover {
-  background-color: #ff6347;
+  background-color: #FF4500;
 }
 
 audio {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
