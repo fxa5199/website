@@ -47,7 +47,7 @@ main section p {
 }
 
 main section img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   border-radius: 8px;
   margin-top: 15px;
@@ -61,6 +61,27 @@ footer {
   border-radius: 8px;
 }
 
+/* Footer Buttons */
+.footer-buttons {
+  margin-bottom: 10px;
+}
+
+.footer-buttons .button {
+  background-color: #f1c40f;
+  color: #1a374d;
+  padding: 10px 20px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.footer-buttons .button:hover {
+  background-color: #ffc107;
+}
+
+/* Footer Links */
 footer a {
   color: #f1c40f;
   text-decoration: none;
@@ -68,10 +89,4 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
-}
-
-/* Audio Styling */
-audio {
-  display: block;
-  margin: 20px auto;
 }
