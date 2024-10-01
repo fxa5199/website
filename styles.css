@@ -1,86 +1,77 @@
+/* General Styling */
 body {
-  font-family: 'Verdana', sans-serif;
+  background-color: #f8f9fa; /* Soft white-grey */
+  color: #2c3e50; /* Dark blue-grey for text */
+  font-family: 'Arial', sans-serif;
   text-align: center;
-  background-color: #ffefc1;
+  padding: 20px;
   margin: 0;
-  color: #333;
 }
 
+/* Header Styling */
 header {
-  background-color: #008080;
-  color: white;
+  background-color: #1a374d; /* Deep teal */
+  color: #f1c40f; /* Gold */
   padding: 20px;
+  border-radius: 8px;
 }
 
-h1 {
-  font-size: 3.5em;
-  margin-bottom: 0.2em;
+header h1 {
+  margin: 0;
+  font-size: 3rem;
 }
 
-p {
-  font-size: 1.3em;
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
 }
 
-main {
-  margin: 0 auto;
+/* Section Styling */
+main section {
+  background-color: #ffffff;
+  margin: 20px auto;
   padding: 20px;
-  max-width: 1200px;
+  border-radius: 8px;
+  max-width: 800px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-section {
-  margin-bottom: 50px;
+main section h2 {
+  color: #1a374d; /* Deep teal */
+  font-size: 2rem;
 }
 
-h2 {
-  color: #9932CC;
-  font-size: 2.7em;
+main section p {
+  font-size: 1.1rem;
+  color: #2c3e50; /* Dark blue-grey */
 }
 
-a {
-  color: #FF4500;
-  font-weight: bold;
+main section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #1a374d;
+  color: #f1c40f;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+footer a {
+  color: #f1c40f;
   text-decoration: none;
-  font-size: 1.2em;
 }
 
-a:hover {
+footer a:hover {
   text-decoration: underline;
 }
 
-img {
-  max-width: 50%;
-  height: auto;
-  margin: 15px auto;
-  display: block;
-}
-
-footer {
-  background-color: #008080;
-  color: white;
-  padding: 10px;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-
-.link-buttons {
-  margin-top: 30px;
-}
-
-.link-buttons a {
-  display: inline-block;
-  padding: 12px 25px;
-  background-color: #FF6347;
-  color: white;
-  border-radius: 8px;
-  margin: 10px;
-}
-
-.link-buttons a:hover {
-  background-color: #FF4500;
-}
-
+/* Audio Styling */
 audio {
-  margin-top: 40px;
+  display: block;
+  margin: 20px auto;
 }
-
