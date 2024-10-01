@@ -1,93 +1,96 @@
-/* General Styling */
 body {
-  background-color: #f8f9fa; /* Soft white-grey */
-  color: #2c3e50; /* Dark blue-grey for text */
   font-family: 'Arial', sans-serif;
-  text-align: center;
-  padding: 20px;
   margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
 }
 
-/* Header Styling */
 header {
-  background-color: #1a374d; /* Deep teal */
-  color: #f1c40f; /* Gold */
+  text-align: center;
+  background-color: #005f73;
+  color: #fff;
   padding: 20px;
-  border-radius: 8px;
 }
 
 header h1 {
-  margin: 0;
   font-size: 3rem;
+  margin-bottom: 0.5rem;
 }
 
 header p {
   font-size: 1.2rem;
-  margin-top: 10px;
 }
 
-/* Section Styling */
-main section {
-  background-color: #ffffff;
-  margin: 20px auto;
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
-  border-radius: 8px;
-  max-width: 800px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-main section h2 {
-  color: #1a374d; /* Deep teal */
-  font-size: 2rem;
+.area-info {
+  text-align: center;
+  margin: 20px 0;
 }
 
-main section p {
+.area-info h2 {
+  font-size: 2.2rem;
+  color: #0a9396;
+}
+
+.area-info p {
   font-size: 1.1rem;
-  color: #2c3e50; /* Dark blue-grey */
-}
-
-main section img {
-  max-width: 80%;
-  height: auto;
-  border-radius: 8px;
-  margin-top: 15px;
-}
-
-/* Footer Styling */
-footer {
-  background-color: #1a374d;
-  color: #f1c40f;
-  padding: 10px;
-  border-radius: 8px;
-}
-
-/* Footer Buttons */
-.footer-buttons {
+  color: #333;
   margin-bottom: 10px;
 }
 
-.footer-buttons .button {
-  background-color: #f1c40f;
-  color: #1a374d;
-  padding: 10px 20px;
-  margin: 5px;
+.area-info img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.area-info a {
+  display: inline-block;
+  margin-top: 10px;
   text-decoration: none;
-  border-radius: 5px;
+  color: #e9d8a6;
   font-weight: bold;
+}
+
+.call-to-action {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.call-to-action h3 {
+  font-size: 2rem;
+  color: #005f73;
+  margin-bottom: 20px;
+}
+
+.call-to-action button {
+  background-color: #0a9396;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
   transition: background-color 0.3s ease;
 }
 
-.footer-buttons .button:hover {
-  background-color: #ffc107;
+.call-to-action button:hover {
+  background-color: #ee9b00;
 }
 
-/* Footer Links */
-footer a {
-  color: #f1c40f;
-  text-decoration: none;
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #005f73;
+  color: #fff;
+  margin-top: 40px;
 }
-
-footer a:hover {
-  text-decoration: underline;
-}
-
